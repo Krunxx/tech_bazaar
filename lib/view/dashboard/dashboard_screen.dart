@@ -3,6 +3,7 @@ import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 import 'package:get/get.dart';
 import 'package:my_ecommerce/controller/dashboard_controller.dart';
 import 'package:my_ecommerce/view/account/account_screen.dart';
+import 'package:my_ecommerce/view/category/category_screen.dart';
 import 'package:my_ecommerce/view/home/home_screen.dart';
 import 'package:my_ecommerce/view/product/product_screen.dart';
 
@@ -20,9 +21,7 @@ class DashboardScreen extends StatelessWidget {
                 const HomeScreen(), //When you click Home page
                 const ProductScreen(), //When you click Category page
                 //Kini is mu proceed sa category
-                Container(
-                  color: Colors.red,
-                ),
+                const CategoryScreen(),
                 const AccountScreen(), //When you click Account page
 
               ],

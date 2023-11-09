@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:my_ecommerce/route/app_page.dart';
 import 'package:my_ecommerce/route/app_route.dart';
 import 'package:my_ecommerce/theme/app_theme.dart';
-import 'package:my_ecommerce/component/home_body.dart';
 
 void main() {
   runApp(const MyApp());
