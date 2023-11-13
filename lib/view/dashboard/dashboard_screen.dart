@@ -21,7 +21,7 @@ class DashboardScreen extends StatelessWidget {
                 const HomeScreen(), //When you click Home page
                 const ProductScreen(), //When you click Category page
                 //Kini is mu proceed sa category
-                const CategoryScreen(),
+                CategoryScreen(),
                 const AccountScreen(), //When you click Account page
 
               ],

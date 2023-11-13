@@ -20,16 +20,16 @@ class HomeScreen extends StatelessWidget {
               child:
               CarouselSlider(),),
 
-        SingleChildScrollView(
-          child: Column(
-            children: [
-              SectionTitle(title: 'Popular Category'),
-              PopularCategoryCard(),
-              SectionTitle(title: 'Popular Product'),
-              PopularProductCard(),
-            ],
-          ),
-        ),
+            SingleChildScrollView(
+              child: Column(
+                children: [
+                  SectionTitle(title: 'Popular Category'),
+                  PopularCategoryCard(),
+                  SectionTitle(title: 'Popular Product'),
+                  PopularProductCard(),
+                ],
+              ),
+            ),
           ],
         )
     );
